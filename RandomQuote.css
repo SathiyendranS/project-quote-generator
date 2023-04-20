@@ -1,0 +1,100 @@
+body
+{
+    background-color: black;
+    position:relative
+}
+.icon
+{
+  padding-right: 55px;
+}
+.container
+{
+    text-align: center;
+    margin-left: 10rem;
+    margin-top: 20rem;
+}
+#text
+{
+    color: rgb(77, 65, 65);
+    font-style: italic;
+    font-size:x-large;
+    padding-top: 2cm;
+}
+#img
+{
+    height: 1cm;
+    width:1cm;
+    margin-right: 8cm;
+    transform: translate(0.5cm,-1cm);
+}
+#new-quote
+{
+    background-color: rgb(15, 14, 14);
+    color: rgb(149, 146, 146);
+    border: 2px solid #df1111; /* Green */
+    font-style:oblique;
+    border-radius: 12px;
+    transform: translate(-5cm,0cm);
+}
+#quote-box
+{
+    background-color:gainsboro;
+    height: 30vh;
+    width:75%;
+    align-items: center;
+    transform: translate(5cm,-2cm);
+    border-radius: 2cm;
+}
+h1{
+
+    color:beige;
+    transform: translate(0cm,-5.5cm);
+}
+.c
+{
+        background-color: rgb(15, 14, 14);
+        color: rgb(149, 146, 146);
+        border: 2px solid #df1111; 
+        font-style:oblique;
+        border-radius: 12px;
+        transform: translate(2.5cm,0.1cm);
+}
+.dropbtn {
+    background-color:black;
+    color: rgb(149, 142, 142);
+    font-style: oblique;
+    font-size: 16px;
+    border-radius: 12px;
+    border: 2px solid red;
+    
+  }
+  
+  /* The container <div> - needed to position the dropdown content */
+  .dropdown {
+    position: relative;
+    display: inline-block;
+  }
+  
+  /* Dropdown Content (Hidden by Default) */
+  .dropdown-content {
+    display: none;
+    background-color:gray;
+    min-width: 16px;
+    border: 2px solid#11df4f;
+    border-radius: 4px;
+  }
+  
+  /* Links inside the dropdown */
+  .dropdown-content a {
+    color: black;
+    text-decoration: none;
+    display: block;
+  }
+  .dropdown:hover .dropdown-content {display: block;}
+  hr{
+    /* width:px; */
+    transform: translate(0cm,-5.8cm);
+    width:420px;
+  }
+ 
+  
